@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 
 from willie.module import rate, rule, interval
-from random import randint
-from datetime import datetime, timedelta
 from random import random, randint, choice
 
 def setup(bot):

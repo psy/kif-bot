@@ -16,7 +16,7 @@ def shutdown(bot):
     return
 
 
-@rule('.*hola.*')
+@rule('^h?ola(\s.*)?')
 @rule('.*cann?abis.*')
 @rule('.*weed.*')
 def no_cannabis(bot, trigger):

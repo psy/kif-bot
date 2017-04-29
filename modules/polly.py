@@ -33,7 +33,8 @@ def cron(bot):
     talk = False
     answers = ['Hinter dir, ein dreiköpfiger Affe!', 'Und ne Buddel voll Rum.', 'Du kämpfst wie ein dummer Bauer!',
                'Mr Cottons Papagei, die selbe Frage!', 'Polly Cracker?', 'Klar soweit?', 'Arrrrrrrr!',
-               'Ich bin ein mächtiger Pirat!', 'Polly will Cracker!', 'Zehn zu eins, dass dahinter etwas steckt!']
+               'Ich bin ein mächtiger Pirat!', 'Polly will Cracker!', 'Zehn zu eins, dass dahinter etwas steckt!',
+               'Cyberrr!']
 
     rand = random()
     rand_answer = random()
